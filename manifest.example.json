@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "rife",
+  "kind": "model",
+  "version": "0.0.0-example",
+  "artifacts": [
+    {
+      "platform": "android",
+      "abi": "arm64-v8a",
+      "format": "zip",
+      "url": "https://github.com/nekobyran/Gamelauncher-model-rife/releases/download/v0.0.0-example/rife-android-arm64-v8a.zip",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "sizeBytes": 1,
+      "maxInstalledBytes": 1,
+      "fileName": "rife-android-arm64-v8a.zip"
+    }
+  ]
+}
