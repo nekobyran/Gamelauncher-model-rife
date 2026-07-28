@@ -1,18 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "rife",
   "kind": "model",
   "version": "0.0.0-example",
+  "payloadClass": "weights",
+  "requires": [
+    "rife-ncnn-runner"
+  ],
+  "runnerApi": "rife-ncnn-v4.6",
+  "testedTargets": [
+    {
+      "platform": "windows",
+      "abi": "x64"
+    }
+  ],
   "artifacts": [
     {
-      "platform": "android",
-      "abi": "arm64-v8a",
+      "platform": "windows",
+      "abi": "x64",
       "format": "zip",
-      "url": "https://github.com/nekobyran/Gamelauncher-model-rife/releases/download/v0.0.0-example/rife-android-arm64-v8a.zip",
+      "url": "https://github.com/nekobyran/Gamelauncher-model-rife/releases/download/v0.0.0-example/rife-windows-x64.zip",
       "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
       "sizeBytes": 1,
       "maxInstalledBytes": 1,
-      "fileName": "rife-android-arm64-v8a.zip"
+      "fileName": "rife-windows-x64.zip"
     }
   ]
 }
